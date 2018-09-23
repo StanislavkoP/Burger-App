@@ -10,7 +10,7 @@ const toolbar = (props) => (
 		<SideDrowerToggle clicked={props.showSideDrower} />
 		<Logo/>
 		<nav  className={classes.DesktopOnly}>
-			<NavigationList/>
+			<NavigationList  isAuth={props.isAuth}/>
 		</nav>
 	</header>
 )
